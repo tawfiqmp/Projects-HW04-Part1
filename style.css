@@ -1,0 +1,91 @@
+#container {
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+	padding-left: 3em;
+	background-color: rgb(70, 145, 206);
+	padding-top: 1em;
+	font-family: "Comic Sams MS", white;
+}
+
+#left-column {
+	width: 33%;
+	float: left;
+	
+}
+
+a:hover { 
+    background-color: purple;
+}
+
+input:required { 
+    background-color: red;
+}
+
+#middle-column {
+	float: left;
+	width: 33%;
+}
+
+a:active { 
+    background-color: yellow;
+}
+
+#right-column {
+	width: 33%;
+	float: left;
+
+}
+
+input:invalid { 
+    border: 2px solid red;
+}
+
+label {
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+
+label, input, select, textarea {
+    display: block;
+}
+
+input, select, textarea {
+	background-color: rgb(70, 145, 206);
+	border-color: white;
+	font-color: white;
+	width: 275px;
+
+}
+
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+  border-color: darkblue;
+
+
+}
+
+input[type="text"]
+{
+    font-color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: darkblue;
+    opacity: 3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: darkblue;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: darkblue;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: darkblue;
+}
+
+
